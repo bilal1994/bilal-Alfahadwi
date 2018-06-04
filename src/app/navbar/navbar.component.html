@@ -1,0 +1,96 @@
+
+<nav class="uk-navbar-container " uk-navbar>
+        <div class="uk-navbar-right">
+    
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a routerLink="/">الروضة</a></li>
+                
+                <li>   <a href="#">التسجيل</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li> <a href="/addskill">اضافة</a></li>
+                  
+                            <li><a href="/register"><h5>عرض</h5></a></li>
+                            
+                        </ul>
+                    </div>
+
+                    <li *ngIf="!isLoggedIn" >   <a href="/myregister">تسجيل حساب جديد </a></li>
+                        <li *ngIf="!isLoggedIn" >   <a href="/mylogin">دخول  </a></li>
+                        
+                       
+    
+                    <li>   <a href="#"></a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li> <a href="/addskill">اضافة</a></li>
+                      
+                               
+                                
+                            </ul>
+                        </div>
+
+                </li>
+                <li><a href="#">اداره الروضه </a></li>
+                <li><a routerLink="/myKindergarten"> حماية الروضات</a></li>
+               <li> <a href="#"> المناهج والترفهة</a>
+
+        <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li> <a href="#">المهارات </a></li>
+                  
+                            <li><a href="#"><h5>تعلم البرمجة</h5></a></li>
+                            <li><a href="#"><h5>الرياضة</h5></a></li>
+                            <li><a href="#"><h5> تعلم اللغة الانكليزية </h5></a></li>
+                            <li><a href="#"><h5>تعلم اللغة الفرنسية </h5></a></li>
+                            
+                            
+                        </ul>
+        </div>
+                <li><a routerLink="/myskill">  الابتكار والتنمية</a></li>
+                <li><a routerLink="/myfonte">اتصل بنا</a></li>
+              
+            
+            </ul>
+            </div>
+               <div class="uk-navbar-left">
+               
+                <ul class="uk-navbar-nav">
+    <li>
+                <div class="uk-navbar-dropdon">
+                <ul class="uk-nav uk-nabar-dropdown-nav">
+                <!-- <li><a href="#">اضف </a></li>
+                 <li><a href="#">خروج </a></li>  -->
+            </ul>
+            </div>
+               </li>
+                
+            </ul>
+    
+        </div>
+      
+              
+        <div class="uk-navbar-left">
+
+            <ul class="uk-navbar-nav">
+           
+              
+        
+                <li *ngIf="isLoggedIn">
+                  <a href="#">حسابك الشخصي</a>
+                  <div class="uk-navbar-dropdown">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a routerLink="/userprofile">معلوماتك</a> </li>
+                          <li><a href="#" (click)="logout()"> خروج</a></li>
+                      </ul>
+                  </div>
+              </li>
+        
+        
+            </ul>
+        
+        </div>
+        
+     
+    </nav> 
+    

@@ -1,0 +1,75 @@
+
+
+#contactUs{
+    height: 640px;
+    background-color:#82ccdd;
+    text-align: center;
+   
+}
+#contactUs{
+
+background-image: url(/assets/0202.jpg) 
+
+
+
+}
+#contactUs{
+    opacity: 16.3;
+}
+#contactUsMain{
+    width: 960px;
+    margin: 0px auto;
+}
+
+#contactDetails{
+    text-align: center;
+    width: 480px;
+    float: left;
+}
+
+#contactUs h2{
+    color: white;
+ 
+}
+
+#contactDetails h3{
+    color: white;
+}
+
+.contactImg{
+    height: 75px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+#contactLocation{
+    width: 480px;
+    float: right;
+}
+
+#siteFooter {
+    height: 60px;
+    background-color:#4a69bd;
+    color:white;
+    text-align: center;
+   
+}
+
+#siteFooter h3{
+    text-align: center;
+    color:white;}
+    #contactUs h1{
+        color:black;
+        margin-top: 5px;
+    }
+    #contactUs h3{
+        color:#141414;}
+    
+    #contactUs h6{
+        margin-top: -8px;
+        color:rgb(12, 12, 12);
+    }
+    #contactUs h2{
+        color: #ff3838;
+
+    }

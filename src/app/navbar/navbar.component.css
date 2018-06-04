@@ -1,0 +1,27 @@
+ h5{
+    color: #b26afaee;
+    
+}
+.uk-navbar-right {
+    background-color:#222f3e;
+    width: 1500px;
+    height: 80px;
+}
+
+.uk-navbar-right .uk-navbar-nav a{
+    color:white;
+}
+.uk-navbar-right .uk-navbar-dropdown a {
+    color:#f368e0;
+    border: 0px solid;
+
+}
+
+.uk-navbar-left {
+background-color:#222f3e;
+
+}
+.uk-navbar-left  a{
+
+color:#ff4757;
+}

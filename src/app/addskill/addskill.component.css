@@ -1,0 +1,28 @@
+div h3{ 
+
+color: #666;
+background-color:#9c88ff;
+
+ } 
+div .uk-margin .uk-textarea { 
+    background-image: url(/assets/0358027fa35ca15.jpg )
+    
+}
+.uk-padding {
+    background-color:#2c2c54;
+    opacity: 1;
+    font-size: 16px;
+
+font-weight: 200;
+
+line-height: 1.5;
+width: auto;
+}
+.uk-margin   h4{ 
+width: auto;
+height: auto;
+color: #000;
+}
+.uk-card {
+background-color:#273c75;
+}
